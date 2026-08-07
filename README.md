@@ -26,10 +26,12 @@ Assembly Output Matrix (Converted 0 - 255)
 <img width="514" height="140" alt="image" src="https://github.com/user-attachments/assets/a8a07947-c350-4557-b41f-4ea7a26d622c" />
 
 
+
 The output shows that the program passed in all three cases or image sizes 
 Going from 100 pixels to 10,000 pixels (100 times more work) increased time by roughly approximately 112 times.
 Going from 10,000 pixels to 1,000,000 pixels (100 times more work) increased time by roughly approximately 190 times.
 
 How to run:
 
+Run in powershell:
 nasm -f win64 imgCvtGrayDoubleToInt.asm -o imgCvtGrayDoubleToInt.obj; if ($?) { gcc main.c imgCvtGrayDoubleToInt.obj -o main.exe }; if ($?) { .\main.exe }
