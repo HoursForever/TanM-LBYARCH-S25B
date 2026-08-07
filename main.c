@@ -122,9 +122,6 @@ int main() {
     }
     printf("\n");
 
-    // -------------------------------------------------------------------------
-    // 2. Performance Benchmark (30 Runs)
-    // -------------------------------------------------------------------------
     printf("2. Performance Benchmark (Average over 30 runs):\n");
     printf("+-----------+--------------+----------+--------------------+----------+\n");
     printf("| Dimension | Total Pixels | Runs     | Avg Execution Time | Status   |\n");
